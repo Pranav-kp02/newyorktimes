@@ -1,0 +1,180 @@
+.body {
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.outer-wrapper {
+    padding: 10px 35px;
+}
+.dflex {
+    display: flex;
+ }
+ .margin0 {
+    margin: 0px;
+ }
+.justify-between{
+    justify-content: space-between;
+    display: flex;
+}
+.todicon {
+    flex-direction: column;
+    justify-content:space-between;
+    display: flex;
+}
+#searchicon{
+    width: 20px;
+}
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.liststyle{
+    list-style: none;
+    align-self: center;
+}
+
+.liststyle li{
+    display: inline-block;
+}
+
+.liststyle > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.liststyle > li > a:hover {
+    color: rgb(137, 141, 140);
+  }
+.split {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.next a {
+    background-color: rgb(56, 125, 195);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+.next a:hover{
+    background-color: blueviolet;
+}
+
+.logo {
+    width: 500px;
+}
+.nextb {
+   padding-left: 200px;
+}
+.lifes1 {
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+.lifes1 ul {
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+}
+
+.lifes1 ul li {
+    display: inline-block;
+}
+
+.lifes1 ul li a {
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+}
+.lifes1 li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+/*content*/
+.content-wrapper {
+    border-top: solid 2px black;
+    margin-top: 3px;
+}
+.colleft {
+    flex: 2;
+}
+.colright {
+    flex: 1;
+}
+.leftcont {
+    width: 40%;
+    
+}
+.leftimg {
+    width: 60%;
+}
+.leftcont a:hover {
+   color: grey;
+}
+img {
+    width: 95%;
+    margin: 10px;
+}
+.leftimg p {
+    text-align: right;
+    font-size: smaller;
+}
+.colright a:hover {
+    color: grey;
+}
+.leftcont h4 {
+    color: red;
+}
+.flex1 {
+    flex: 1;
+}
+.flex1 p {
+    text-align: right;
+    font-size: smaller;
+}
+.flex1 a:hover {
+    color: grey;
+}
+/* footer */
+.titlebotm {
+    width: 200px;
+}
+.flex2 {
+    flex: 1;
+    }
+.padding0 {
+    padding: 0px;
+}    
+.blist {
+    list-style: none;
+}
+.flex2 ul li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+.flex2 ul li svg {
+    width: 10px;
+}
+.paddingleft {
+    padding-left: 10px;
+}
+.bottom {
+    display: flex; 
+    justify-content: space-evenly;
+}
+.lastlist {
+    list-style: none;
+    
+}
+.lastlist li {
+    display: inline-block;
+    padding: 10px;
+}
+.lastlist li a:hover {
+ text-decoration: underline;
+}
